@@ -19,6 +19,7 @@ This project requires setting up environment variables to securely store API key
 OPENAI_API_KEY=your_openai_api_key_here
 LLAMA_CLOUD_API_KEY=your_llama_cloud_api_key_here
 ```
+Please refer to here for LLAMA cloud API key - https://github.com/run-llama/llama_parse.
 
 Replace `your_openai_api_key_here` and `your_llama_cloud_api_key_here` with your actual API keys.
 
@@ -43,6 +44,7 @@ Run the `index_pdfs.py` script to parse two documents and perform vector indexin
 ```bash
 python3 index_pdfs.py
 ```
+Parsing is done with llama_parse: https://github.com/run-llama/llama_parse
 
 ### Running the Streamlit App
 
@@ -62,3 +64,6 @@ In the app interface, there are two options on the left-hand side (LHS):
 - Conduct more in-depth experimentation and evaluation of the RAG component.
 - Compile a full-scale evaluation with DSPy and experiment with additional modules, including fine-tuning.
 - Containerise and deploy the application on Google Cloud Platform's Cloud Run.
+
+## Additional Notes
+- The `experims_llama_parse_and_dspy.ipynb` file found in the notebooks folder contains all the experimentation and tailoring/prompting of the parsing + DSPy framework. Please refer to here for more of an idea of how I created the app. 
