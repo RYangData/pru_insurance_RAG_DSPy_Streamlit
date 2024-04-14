@@ -1,0 +1,8 @@
+openai==1.16.2
+python-dotenv==1.0.1
+llama-index-core==0.10.28
+llama-parse==0.4.0
+nest-asyncio==1.6.0
+qdrant-client==1.8.2
+dspy-ai==2.1.9
+streamlit==1.33.0
