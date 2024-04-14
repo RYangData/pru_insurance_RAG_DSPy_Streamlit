@@ -1,4 +1,4 @@
-# prudential_plc_health_case
+# Insurance Brochure 2-Document RAG with DSPy and Streamlit
 
 ## Installation
 
